@@ -1,6 +1,6 @@
 #! /bin/sh
-# Generated automatically by config.status (libgfapi-jni) 1.0.4
-# Libtool was configured on host Sevens-MacBook-Air.local:
+# Generated automatically by config.status (libgfapi-jni) 1.0.5
+# Libtool was configured on host bogon:
 # NOTE: Changes made to this file will be lost: look at ltmain.sh.
 
 # Provide generalized library-building support services.

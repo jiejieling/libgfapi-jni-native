@@ -5,11 +5,63 @@
   </component>
   <component name="CMakeSettings">
     <configurations>
-      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
+      <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" ENABLED="true" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cae0fdd7-4489-459b-8484-7de817788a7a" name="Default Changelist" comment="" />
+    <list default="true" id="cae0fdd7-4489-459b-8484-7de817788a7a" name="Default Changelist" comment="Remove cache files">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libgfapi-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libgfapi-java.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/Makefile.am" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile.am" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/Makefile.in" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/aclocal.m4" beforeDir="false" afterPath="$PROJECT_DIR$/aclocal.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/autogen.sh" beforeDir="false" afterPath="$PROJECT_DIR$/autogen.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/autotools/ar-lib" beforeDir="false" afterPath="$PROJECT_DIR$/autotools/ar-lib" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/autotools/compile" beforeDir="false" afterPath="$PROJECT_DIR$/autotools/compile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/autotools/config.guess" beforeDir="false" afterPath="$PROJECT_DIR$/autotools/config.guess" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/autotools/config.sub" beforeDir="false" afterPath="$PROJECT_DIR$/autotools/config.sub" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/autotools/install-sh" beforeDir="false" afterPath="$PROJECT_DIR$/autotools/install-sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/autotools/ltmain.sh" beforeDir="false" afterPath="$PROJECT_DIR$/autotools/ltmain.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/autotools/missing" beforeDir="false" afterPath="$PROJECT_DIR$/autotools/missing" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/config.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/config.status" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/configure" beforeDir="false" afterPath="$PROJECT_DIR$/configure" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/configure.ac" beforeDir="false" afterPath="$PROJECT_DIR$/configure.ac" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/libtool" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/license.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/m4/custom.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/custom.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/m4/jni.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/jni.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/m4/libtool.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/libtool.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/m4/ltoptions.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/ltoptions.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/m4/ltsugar.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/ltsugar.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/m4/ltversion.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/ltversion.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/m4/lt~obsolete.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/lt~obsolete.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/m4/osx-universal.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/osx-universal.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/src/.dirstamp" beforeDir="false" afterPath="$PROJECT_DIR$/src/.dirstamp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/src/config.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/src/config.h.in" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.h.in" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/src/hawtjni.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/hawtjni.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/src/hawtjni.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/hawtjni.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/src/libgfapi-jni.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/libgfapi-jni.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/src/libgfapi-jni.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/libgfapi-jni.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/src/libgfapi-jni_stats.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/libgfapi-jni_stats.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/src/libgfapi-jni_stats.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/libgfapi-jni_stats.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/src/libgfapi-jni_structs.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/libgfapi-jni_structs.c" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/src/libgfapi-jni_structs.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/libgfapi-jni_structs.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/src/stamp-h1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-package/src/windows/stdint.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/windows/stdint.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-src/hawtjni.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-src/hawtjni.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-src/libgfapi-jni.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-src/libgfapi-jni_stats.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-src/libgfapi-jni_stats.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-src/libgfapi-jni_structs.c" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-src/libgfapi-jni_structs.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/native-src/windows/stdint.h" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -18,6 +70,22 @@
   <component name="ClangdSettings">
     <option name="formatViaClangd" value="false" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
   <component name="ProjectId" id="29QC87J9Wf6yfLYzPqrixkXQ13q" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,10 +93,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="RunOnceActivity.cidr.known.project.marker" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="cf.first.check.clang-format" value="false" />
+    <property name="cidr.known.project.marker" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true">
@@ -47,20 +123,34 @@
       <updated>1653035762948</updated>
       <workItem from="1653035765405" duration="3209000" />
       <workItem from="1653046499782" duration="193000" />
+      <workItem from="1653101832448" duration="1127000" />
     </task>
+    <task id="LOCAL-00001" summary="Remove cache files">
+      <created>1653102026037</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1653102026037</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="WindowStateProjectService">
-    <state x="2147" y="291" width="600" height="474" key="find.popup" timestamp="1653036892018">
-      <screen x="1440" y="-55" width="1920" height="1055" />
-    </state>
-    <state x="2147" y="291" width="600" height="474" key="find.popup/0.25.1440.812/1440.-55.1920.1055@1440.-55.1920.1055" timestamp="1653036892018" />
-    <state x="2112" y="235" width="670" height="676" key="search.everywhere.popup" timestamp="1653036740964">
-      <screen x="1440" y="-55" width="1920" height="1055" />
-    </state>
-    <state x="2112" y="235" width="670" height="676" key="search.everywhere.popup/0.25.1440.812/1440.-55.1920.1055@1440.-55.1920.1055" timestamp="1653036740964" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Remove cache files" />
+    <option name="LAST_COMMIT_MESSAGE" value="Remove cache files" />
   </component>
 </project>

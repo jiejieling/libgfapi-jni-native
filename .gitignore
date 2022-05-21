@@ -3,7 +3,8 @@
 .pydevproject
 *.py[co]
 .settings
-.idea
+.idea/
 .vscode
 __pycache__
 .libs/
+/liblibgfapi-jni.la

@@ -18,14 +18,14 @@
 ## --------------------------------
 ## Initialization macros.
 ## --------------------------------
-AC_PREREQ([2.61])
-AC_INIT([libgfapi-jni], [1.0.4])
+AC_PREREQ([2.71])
+AC_INIT([libgfapi-jni],[1.0.5])
 AC_CONFIG_AUX_DIR([autotools])
 AC_CONFIG_MACRO_DIR([m4])
 AC_CONFIG_SRCDIR([src/libgfapi-jni.c])
 AC_CONFIG_HEADERS([src/config.h])
 AC_CANONICAL_HOST
-AC_CANONICAL_SYSTEM
+AC_CANONICAL_TARGET
 
 ## -----------------------------------------------
 ## Application Checks
@@ -34,7 +34,7 @@ AC_PROG_CC
 AC_PROG_INSTALL
 # Make AM_PROG_AR work before automake 1.12
 m4_ifdef([AM_PROG_AR], [AM_PROG_AR])
-AC_PROG_LIBTOOL([disable-static])
+LT_INIT([disable-static])
 
 ## -----------------------------------------------
 ## API Checks

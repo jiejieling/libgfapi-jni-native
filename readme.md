@@ -39,7 +39,7 @@ Building on Windows
 Download and install the free [Microsoft Windows SDK][1].  The SDK includes
 all the headers, libraries, and build tools needed to compile the JNI library.
 
-Set the `JAVA_HOME` environment variable to the location where your JDK is 
+Set the `   JAVA_HOME` environment variable to the location where your JDK is 
 installed.  
 
 Use the "Start>All Programs>Microsoft Windows SDK vX.X>CMD" command window 
