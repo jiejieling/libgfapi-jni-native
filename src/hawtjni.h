@@ -183,4 +183,5 @@ jlong hawtjni_atomic_get(jlong *target);
 }
 #endif 
 
+#define min(a, b) ((a)<(b)?(a):(b))
 #endif /* ifndef INC_HAWTJNI_H */

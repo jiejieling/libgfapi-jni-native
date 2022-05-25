@@ -3,6 +3,8 @@
 *******************************************************************************/
 #include "libgfapi-jni.h"
 
+#define MAXPATHLEN 255
+
 void cachedirentFields(JNIEnv *env, jobject lpObject);
 struct dirent *getdirentFields(JNIEnv *env, jobject lpObject, struct dirent *lpStruct);
 void setdirentFields(JNIEnv *env, jobject lpObject, struct dirent *lpStruct);

@@ -8,3 +8,5 @@
 __pycache__
 .libs/
 /liblibgfapi-jni.la
+*.o
+*.lo
