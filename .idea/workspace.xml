@@ -9,58 +9,22 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cae0fdd7-4489-459b-8484-7de817788a7a" name="Default Changelist" comment="Remove cache files">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libgfapi-java.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libgfapi-java.iml" afterDir="false" />
+    <list default="true" id="cae0fdd7-4489-459b-8484-7de817788a7a" name="Default Changelist" comment="Upgrade version to 1.0.5 V2">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/Makefile.am" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile.am" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/Makefile.in" beforeDir="false" afterPath="$PROJECT_DIR$/Makefile.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/aclocal.m4" beforeDir="false" afterPath="$PROJECT_DIR$/aclocal.m4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/autogen.sh" beforeDir="false" afterPath="$PROJECT_DIR$/autogen.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/autotools/ar-lib" beforeDir="false" afterPath="$PROJECT_DIR$/autotools/ar-lib" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/autotools/compile" beforeDir="false" afterPath="$PROJECT_DIR$/autotools/compile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/autotools/config.guess" beforeDir="false" afterPath="$PROJECT_DIR$/autotools/config.guess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/autotools/config.sub" beforeDir="false" afterPath="$PROJECT_DIR$/autotools/config.sub" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/autotools/install-sh" beforeDir="false" afterPath="$PROJECT_DIR$/autotools/install-sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/autotools/ltmain.sh" beforeDir="false" afterPath="$PROJECT_DIR$/autotools/ltmain.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/autotools/missing" beforeDir="false" afterPath="$PROJECT_DIR$/autotools/missing" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/config.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/config.status" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/configure" beforeDir="false" afterPath="$PROJECT_DIR$/configure" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/configure.ac" beforeDir="false" afterPath="$PROJECT_DIR$/configure.ac" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/libtool" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/license.txt" beforeDir="false" afterPath="$PROJECT_DIR$/license.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/m4/custom.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/custom.m4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/m4/jni.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/jni.m4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/m4/libtool.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/libtool.m4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/m4/ltoptions.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/ltoptions.m4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/m4/ltsugar.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/ltsugar.m4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/m4/ltversion.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/ltversion.m4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/m4/lt~obsolete.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/lt~obsolete.m4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/m4/osx-universal.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/osx-universal.m4" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/src/.dirstamp" beforeDir="false" afterPath="$PROJECT_DIR$/src/.dirstamp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/src/config.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/src/config.h.in" beforeDir="false" afterPath="$PROJECT_DIR$/src/config.h.in" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/src/hawtjni.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/hawtjni.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/src/hawtjni.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/hawtjni.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/src/libgfapi-jni.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/libgfapi-jni.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/src/libgfapi-jni.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/libgfapi-jni.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/src/libgfapi-jni_stats.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/libgfapi-jni_stats.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/src/libgfapi-jni_stats.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/libgfapi-jni_stats.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/src/libgfapi-jni_structs.c" beforeDir="false" afterPath="$PROJECT_DIR$/src/libgfapi-jni_structs.c" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/src/libgfapi-jni_structs.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/libgfapi-jni_structs.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/src/stamp-h1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-package/src/windows/stdint.h" beforeDir="false" afterPath="$PROJECT_DIR$/src/windows/stdint.h" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-src/hawtjni.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-src/hawtjni.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-src/libgfapi-jni.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-src/libgfapi-jni_stats.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-src/libgfapi-jni_stats.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-src/libgfapi-jni_structs.c" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-src/libgfapi-jni_structs.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/native-src/windows/stdint.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotools/ar-lib" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotools/compile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotools/config.guess" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotools/config.sub" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotools/install-sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotools/ltmain.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/autotools/missing" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config.status" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/configure" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/libtool" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/m4/jni.m4" beforeDir="false" afterPath="$PROJECT_DIR$/m4/jni.m4" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/windows/stdint.h" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,6 +63,7 @@
     <property name="cf.first.check.clang-format" value="false" />
     <property name="cidr.known.project.marker" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.general" />
   </component>
   <component name="RecentsManager">
@@ -123,7 +88,9 @@
       <updated>1653035762948</updated>
       <workItem from="1653035765405" duration="3209000" />
       <workItem from="1653046499782" duration="193000" />
-      <workItem from="1653101832448" duration="1127000" />
+      <workItem from="1653101832448" duration="1966000" />
+      <workItem from="1653446857889" duration="9903000" />
+      <workItem from="1653465981656" duration="215000" />
     </task>
     <task id="LOCAL-00001" summary="Remove cache files">
       <created>1653102026037</created>
@@ -132,7 +99,28 @@
       <option name="project" value="LOCAL" />
       <updated>1653102026037</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Format code dir tree">
+      <created>1653103227589</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1653103227589</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Upgrade version to 1.0.5">
+      <created>1653103746090</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1653103746090</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Upgrade version to 1.0.5 V2">
+      <created>1653465329678</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1653465329678</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -148,9 +136,13 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Remove cache files" />
-    <option name="LAST_COMMIT_MESSAGE" value="Remove cache files" />
+    <MESSAGE value="Format code dir tree" />
+    <MESSAGE value="Upgrade version to 1.0.5" />
+    <MESSAGE value="Upgrade version to 1.0.5 V2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Upgrade version to 1.0.5 V2" />
   </component>
 </project>

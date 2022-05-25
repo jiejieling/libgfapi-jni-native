@@ -5,6 +5,7 @@ The configure script will customize the way the software is built and
 installed into your system along with detecting the available libraries
 that have been installed.  To use the default configuration just run:
 
+    ./autogen.sh
     ./configure
 
 For more help on how to customize the build configuration, run:
@@ -33,20 +34,3 @@ and libtool.
 
     brew install autoconf automake libtool
 
-Building on Windows
--------------------
-
-Download and install the free [Microsoft Windows SDK][1].  The SDK includes
-all the headers, libraries, and build tools needed to compile the JNI library.
-
-Set the `   JAVA_HOME` environment variable to the location where your JDK is 
-installed.  
-
-Use the "Start>All Programs>Microsoft Windows SDK vX.X>CMD" command window 
-and change to the directory that this file is located in and then run: 
-
-    vcbuild vs2008.vcproj
-
-The dll files will be located under the target directory.
-    
-[1]: http://www.microsoft.com/downloads/details.aspx?FamilyID=c17ba869-9671-4330-a63e-1fd44e0e2505
