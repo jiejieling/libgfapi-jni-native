@@ -47,6 +47,8 @@ typedef enum {
 	GLFS_glfs_1telldir_FUNC,
 	GLFS_glfs_1unlink_FUNC,
 	GLFS_glfs_1write_FUNC,
+	GLFS_glfs_1setfsuid_FUNC,
+    GLFS_glfs_1setfsgid_FUNC
 } GLFS_FUNCS;
 #ifdef NATIVE_STATS
 extern int GlusterOpenOption_nativeFunctionCount;

@@ -411,6 +411,26 @@ fail:
 	return rc;
 }
 
+JNIEXPORT jint JNICALL GLFS_NATIVE(glfs_1setfsuid)
+        (JNIEnv *env, jclass that, jint arg0)
+{
+    jint rc = 0;
+    GLFS_NATIVE_ENTER(env, that, GLFS_glfs_1setfsuid_FUNC);
+    rc = (jint)glfs_setfsuid(arg0);
+    GLFS_NATIVE_EXIT(env, that, GLFS_glfs_1setfsuid_FUNC);
+    return rc;
+}
+
+JNIEXPORT jint JNICALL GLFS_NATIVE(glfs_1setfsgid)
+        (JNIEnv *env, jclass that, jint arg0)
+{
+    jint rc = 0;
+    GLFS_NATIVE_ENTER(env, that, GLFS_glfs_1setfsgid_FUNC);
+    rc = (jint)glfs_setfsgid(arg0);
+    GLFS_NATIVE_EXIT(env, that, GLFS_glfs_1setfsgid_FUNC);
+    return rc;
+}
+
 #define GlusterOpenOption_NATIVE(func) Java_com_peircean_libgfapi_1jni_internal_GlusterOpenOption_##func
 
 JNIEXPORT void JNICALL GlusterOpenOption_NATIVE(init)(JNIEnv *env, jclass that)
