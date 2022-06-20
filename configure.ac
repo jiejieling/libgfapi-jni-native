@@ -18,7 +18,7 @@
 ## --------------------------------
 ## Initialization macros.
 ## --------------------------------
-AC_PREREQ([2.71])
+AC_PREREQ([2.61])
 AC_INIT([libgfapi-jni],[1.0.5])
 AC_CONFIG_AUX_DIR([autotools])
 AC_CONFIG_MACRO_DIR([m4])
