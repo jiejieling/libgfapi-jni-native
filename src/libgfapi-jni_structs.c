@@ -36,10 +36,11 @@ struct dirent *getdirentFields(JNIEnv *env, jobject lpObject, struct dirent *lpS
     lpStruct->d_reclen = (*env)->GetIntField(env, lpObject, direntFc.d_reclen);
     lpStruct->d_type = (*env)->GetByteField(env, lpObject, direntFc.d_type);
     {
-        lpStruct->d_namlen = (uint16_t)
-        sizeof(lpStruct->d_name);
+#if defined(__APPLE__)
+        lpStruct->d_namlen = (uint16_t) sizeof(lpStruct->d_name);
+#endif
         jbyteArray lpObject1 = (jbyteArray)(*env)->GetObjectField(env, lpObject, direntFc.d_name);
-        (*env)->GetByteArrayRegion(env, lpObject1, 0, min(lpStruct->d_namlen, MAXPATHLEN), (jbyte *) lpStruct->d_name);
+        (*env)->GetByteArrayRegion(env, lpObject1, 0, min(sizeof(lpStruct->d_name), MAXPATHLEN), (jbyte *) lpStruct->d_name);
     }
     return lpStruct;
 }
@@ -56,7 +57,7 @@ void setdirentFields(JNIEnv *env, jobject lpObject, struct dirent *lpStruct) {
     (*env)->SetByteField(env, lpObject, direntFc.d_type, (jbyte) lpStruct->d_type);
 
     jbyteArray lpObject1 = (jbyteArray)(*env)->GetObjectField(env, lpObject, direntFc.d_name);
-    (*env)->SetByteArrayRegion(env, lpObject1, 0, min(lpStruct->d_namlen, MAXPATHLEN), (jbyte *) lpStruct->d_name);
+    (*env)->SetByteArrayRegion(env, lpObject1, 0, min(sizeof(lpStruct->d_name), MAXPATHLEN), (jbyte *) lpStruct->d_name);
 
 }
 
