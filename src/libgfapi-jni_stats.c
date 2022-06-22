@@ -6,8 +6,8 @@
 
 #ifdef NATIVE_STATS
 
-int GLFS_nativeFunctionCount = 30;
-int GLFS_nativeFunctionCallCount[30];
+int GLFS_nativeFunctionCount = 32;
+int GLFS_nativeFunctionCallCount[32];
 char * GLFS_nativeFunctionNames[] = {
 	"glfs_1access",
 	"glfs_1chmod",
@@ -39,6 +39,8 @@ char * GLFS_nativeFunctionNames[] = {
 	"glfs_1telldir",
 	"glfs_1unlink",
 	"glfs_1write",
+	"glfs_1setfsuid",
+	"glfs_1setfsgid"
 };
 
 #define STATS_NATIVE(func) Java_org_fusesource_hawtjni_runtime_NativeStats_##func
